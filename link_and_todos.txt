@@ -1,0 +1,20 @@
+##todo 1: ÇäÌÇã ˜ÇÑ åÇí ÇåÑÇÒ åæíÊ ÓÇíÊ ˜Çæå äÇÑ æ äÌ Êæãä ÔÇÑ ˜ÑÏäÔ Èå ØæÑ ˜á
+
+##todo 2: íÏÇ ˜ÑÏä í˜ ÓÑæÑ ãäÇÓÈ æ ÇÑÒÇä ÈÑÇí ˜á Ñæå
+
+##todo 3: ÇÖÇİå ˜ÑÏä ÕİÍå ÏÑ íÇİÊ íÇã æ ÎæäÏäÔæä æ æÕá ˜ÑÏäÔ ÎæÏÊ ãíÏæäí
+
+##todo 4: give localhost:5000/get_sms_from to kavehnegar callback SMS system for POST datas to here
+
+link kn : https://kavenegar.com/
+
+user: mgstudio884@gmail.com
+
+pass: 1051154731
+
+link github_p: https://github.com/mgmgst/ghameh_dovom_enghelab
+link khode projeh
+
+user: mgmgst
+
+pass: mgstudio884

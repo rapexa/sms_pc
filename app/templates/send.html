@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>فرم ارسال پیام</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--===============================================================================================-->
+    <link rel="icon" type="image/png" href="static/images/icons/favicon.ico" />
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="static/vendor/bootstrap/css/bootstrap.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="static/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="static/fonts/Linearicons-Free-v1.0.0/icon-font.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="static/vendor/animate/animate.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="static/vendor/css-hamburgers/hamburgers.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="static/vendor/animsition/css/animsition.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="static/vendor/select2/select2.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="static/vendor/daterangepicker/daterangepicker.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="static/css/util.css">
+    <link rel="stylesheet" type="text/css" href="static/css/main.css">
+    <!--===============================================================================================-->
+</head>
+
+<body>
+    <div class="container-contact100">
+        <div class="contact100-map" id="google_map" data-map-x="40.722047" data-map-y="-73.986422" data-pin="static/images/icons/map-marker.png" data-scrollwhell="0" data-draggable="1"></div>
+        <button class="contact100-btn-show">
+			<i class="fa fa-envelope-o" aria-hidden="true"></i>
+        </button>
+
+        <div class="wrap-contact100">
+            <button class="contact100-btn-hide">
+				<i class="fa fa-close" aria-hidden="true"></i>
+			</button>
+
+            <form class="contact100-form validate-form" action="" method="POST">
+                <span class="contact100-form-title">
+					ارسال پیام
+				</span>
+
+                <div class="wrap-input100 rs1-wrap-input100 validate-input" data-validate="!شماره موبایل خواسته شده">
+                    <span class="label-input100">شماره موبایل :</span>
+                    <input class="input100" type="text" name="phone" id="phone" placeholder="شماره موبایل خود گیرنده را وارد کنید">
+                    <span class="focus-input100"></span>
+                </div>
+
+                <div class="wrap-input100 validate-input" data-validate="!پیام خواسته شده">
+                    <span class="label-input100">پیام :</span>
+                    <textarea class="input100" name="message" id="message" placeholder="پیام خود را وارد کنید برای ارسال به شماره فوق"></textarea>
+                    <span class="focus-input100"></span>
+                </div>
+
+                <div class="container-contact100-form-btn">
+                    <input class="contact100-form-btn" type=submit value="ارسال">
+                    </input>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+
+    <div id="dropDownSelect1"></div>
+
+    <!--===============================================================================================-->
+    <script src="static/vendor/jquery/jquery-3.2.1.min.js"></script>
+    <!--===============================================================================================-->
+    <script src="static/vendor/animsition/js/animsition.min.js"></script>
+    <!--===============================================================================================-->
+    <script src="static/vendor/bootstrap/js/popper.js"></script>
+    <script src="static/vendor/bootstrap/js/bootstrap.min.js"></script>
+    <!--===============================================================================================-->
+    <script src="static/vendor/select2/select2.min.js"></script>
+    <!--===============================================================================================-->
+    <script src="static/vendor/daterangepicker/moment.min.js"></script>
+    <script src="static/vendor/daterangepicker/daterangepicker.js"></script>
+    <!--===============================================================================================-->
+    <script src="static/vendor/countdowntime/countdowntime.js"></script>
+    <!--===============================================================================================-->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAKFWBqlKAGCeS1rMVoaNlwyayu0e0YRes"></script>
+    <script src="static/js/map-custom.js"></script>
+    <!--===============================================================================================-->
+    <script src="static/js/main.js"></script>
+
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-23581568-13');
+    </script>
+
+</body>
+
+</html>
