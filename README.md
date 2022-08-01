@@ -1,12 +1,12 @@
 # sms_pc project
 
-This project is on working but for working on it do:
+send sms via web with kavehnegar api
 
 ## How to run
 
 1. Install python3, pip3, virtualenv, MySQL in your system.
 
-2. Clone the project `https://github.com/mgmgst/sms_pc.git` && cd sms_serial_verification
+2. Clone the project `https://github.com/rapexa/sms_pc.git` && cd sms_serial_verification
 
 3. in the app folder, rename the `config.py.sample` to `config.py` and do proper changes.
 
